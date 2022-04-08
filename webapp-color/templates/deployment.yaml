@@ -31,4 +31,3 @@ spec:
             image: gcr.io/spry-district-340607/webapp-color:{{ .Values.app.tag}}
             ports:
               - containerPort: 8080
-            type: LoadBalancer
