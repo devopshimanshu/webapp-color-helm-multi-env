@@ -1,0 +1,4 @@
+app:
+  env: qa
+  namespace: webapp-color-qa
+  replica: 3

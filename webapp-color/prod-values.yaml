@@ -1,0 +1,4 @@
+app:
+  env: prod
+  namespace: webapp-color-prod
+  replica: 6
