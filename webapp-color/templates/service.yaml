@@ -5,6 +5,7 @@ metadata:
   labels:
     app: frontend
     env: {{ .Values.app.env }}
+  namespace: {{ .Values.app.namespace }}
 spec:
   type: {{ .Values.service.type }}
   ports:
